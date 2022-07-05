@@ -8,7 +8,7 @@ export default function FileUpload() {
         <FileInput
           onChange={() => {}}
           name="File input"
-          inputFileName="Input File Name"
+          inputFileName="Subir archivo..."
         ></FileInput>
       </div>
     </>

@@ -20,11 +20,11 @@ export default function Home() {
       title="Delegaciones"
     />,
     <Pill
-      onClick={() => setSelectedIndex(DOCUMENT_TYPES.USERS)}
-      index={DOCUMENT_TYPES.USERS}
-      key={DOCUMENT_TYPES.USERS}
+      onClick={() => setSelectedIndex(DOCUMENT_TYPES.ASOCIATES)}
+      index={DOCUMENT_TYPES.ASOCIATES}
+      key={DOCUMENT_TYPES.ASOCIATES}
       selectedIndex={selectedIndex}
-      title="Usuarios"
+      title="Asociados"
     />,
     <Pill
       onClick={() => setSelectedIndex(DOCUMENT_TYPES.STATES)}

@@ -1,6 +1,6 @@
 export const DOCUMENT_TYPES = {
   DELEGATIONS: 1,
-  USERS: 2,
+  ASOCIATES: 2,
   STATES: 3,
 };
 export const DEFAULT_TEXT_COLOR = 'text-black';
